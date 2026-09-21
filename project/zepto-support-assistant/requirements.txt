@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.5
+langgraph>=0.2
+chromadb>=0.5
+sentence-transformers>=3.0
+# Optional (only used when MOCK_LLM=0):
+groq>=0.9
+# Dev / tests:
+pytest>=8.0
+httpx>=0.27
